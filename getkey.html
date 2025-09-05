@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ Thống Key - Roblox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔑 Hệ Thống Key Roblox</h1>
+        <p>Nhận key để kích hoạt script trong game Roblox. Key có hiệu lực trong 24 giờ.</p>
+        
+        <button id="getKeyBtn" class="btn">
+            <span class="btn-icon">🎮</span> Lấy Key
+        </button>
+        
+        <div id="keyContainer" style="display: none;">
+            <div class="key-box">
+                <span id="keyText" class="key-text"></span>
+                <button id="copyKeyBtn" class="btn btn-success">
+                    <span class="btn-icon">📋</span> Sao chép
+                </button>
+            </div>
+            
+            <div id="statusMessage" class="status"></div>
+        </div>
+        
+        <div class="instructions">
+            <h3>Hướng dẫn sử dụng:</h3>
+            <ol>
+                <li>Nhấn "Lấy Key" để tạo key mới</li>
+                <li>Sao chép key bằng nút "Sao chép"</li>
+                <li>Vào game Roblox, mở GUI và nhập key</li>
+                <li>Nhấn "Check Key" để kích hoạt script</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
